@@ -390,7 +390,7 @@ U 1 1 6451FCEC
 P 5950 5100
 F 0 "MX16" H 5983 5323 60  0000 C CNN
 F 1 "MX-NoLED" H 5983 5249 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 5325 5075 60  0001 C CNN
+F 2 "MX_Only:MXOnly-2U-ReversedStabilizers-NoLED" H 5325 5075 60  0001 C CNN
 F 3 "" H 5325 5075 60  0001 C CNN
 	1    5950 5100
 	1    0    0    -1  
@@ -515,15 +515,12 @@ Wire Wire Line
 Connection ~ 6150 3950
 Wire Wire Line
 	6150 3950 5550 3950
-Wire Wire Line
-	7200 4750 6750 4750
 Connection ~ 5550 4750
 Wire Wire Line
 	5550 4750 5250 4750
 Connection ~ 6150 4750
 Wire Wire Line
 	6150 4750 5550 4750
-Connection ~ 6750 4750
 Wire Wire Line
 	6750 4750 6150 4750
 Wire Wire Line
@@ -551,8 +548,27 @@ Text GLabel 5250 5550 0    50   Input ~ 0
 ROW4
 Wire Wire Line
 	7700 3100 7700 4700
+Connection ~ 6750 5550
 Wire Wire Line
-	7350 5200 7200 5200
+	7350 5200 7350 5550
 Wire Wire Line
-	7200 5200 7200 4750
+	6750 5550 7350 5550
+Text GLabel 4350 3850 2    50   Input ~ 0
+ROW0
+Text GLabel 4350 3750 2    50   Input ~ 0
+ROW1
+Text GLabel 4350 3650 2    50   Input ~ 0
+ROW2
+Text GLabel 4350 3550 2    50   Input ~ 0
+ROW3
+Text GLabel 4350 3450 2    50   Input ~ 0
+ROW4
+Text GLabel 2950 3450 0    50   Input ~ 0
+COL0
+Text GLabel 2950 3350 0    50   Input ~ 0
+COL1
+Text GLabel 2950 3250 0    50   Input ~ 0
+COL2
+Text GLabel 2950 3150 0    50   Input ~ 0
+COL3
 $EndSCHEMATC
