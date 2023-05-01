@@ -1,4 +1,667 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L promicro:ProMicro U1
+U 1 1 64503A13
+P 6050 3750
+F 0 "U1" H 6050 4787 60  0000 C CNN
+F 1 "ProMicro" H 6050 4681 60  0000 C CNN
+F 2 "Keebio-Parts:Elite-C" H 6150 2700 60  0001 C CNN
+F 3 "" H 6150 2700 60  0000 C CNN
+	1    6050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 645329AB
+P 1550 2600
+F 0 "MX1" H 1583 2823 60  0000 C CNN
+F 1 "MX-NoLED" H 1583 2749 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 925 2575 60  0001 C CNN
+F 3 "" H 925 2575 60  0001 C CNN
+	1    1550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D1
+U 1 1 645332D6
+P 1300 2900
+F 0 "D1" V 1346 2820 50  0000 R CNN
+F 1 "CD4148W" V 1255 2820 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 1300 2700 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 1300 2900 50  0001 C CNN
+	1    1300 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1500 2750 1300 2750
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 64534BD0
+P 2150 2600
+F 0 "MX2" H 2183 2823 60  0000 C CNN
+F 1 "MX-NoLED" H 2183 2749 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 1525 2575 60  0001 C CNN
+F 3 "" H 1525 2575 60  0001 C CNN
+	1    2150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D2
+U 1 1 64534BD6
+P 1900 2900
+F 0 "D2" V 1946 2820 50  0000 R CNN
+F 1 "CD4148W" V 1855 2820 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 1900 2700 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 1900 2900 50  0001 C CNN
+	1    1900 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 2750 1900 2750
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 645356CD
+P 2750 2600
+F 0 "MX3" H 2783 2823 60  0000 C CNN
+F 1 "MX-NoLED" H 2783 2749 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 2125 2575 60  0001 C CNN
+F 3 "" H 2125 2575 60  0001 C CNN
+	1    2750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D3
+U 1 1 645356D3
+P 2500 2900
+F 0 "D3" V 2546 2820 50  0000 R CNN
+F 1 "CD4148W" V 2455 2820 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2500 2700 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 2500 2900 50  0001 C CNN
+	1    2500 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 2750 2500 2750
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 645365DE
+P 3350 2600
+F 0 "MX4" H 3383 2823 60  0000 C CNN
+F 1 "MX-NoLED" H 3383 2749 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 2725 2575 60  0001 C CNN
+F 3 "" H 2725 2575 60  0001 C CNN
+	1    3350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D4
+U 1 1 645365E4
+P 3100 2900
+F 0 "D4" V 3146 2820 50  0000 R CNN
+F 1 "CD4148W" V 3055 2820 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3100 2700 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 3100 2900 50  0001 C CNN
+	1    3100 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 2750 3100 2750
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 64537A80
+P 3950 2600
+F 0 "MX5" H 3983 2823 60  0000 C CNN
+F 1 "MX-NoLED" H 3983 2749 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 3325 2575 60  0001 C CNN
+F 3 "" H 3325 2575 60  0001 C CNN
+	1    3950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D5
+U 1 1 64537A86
+P 3700 2900
+F 0 "D5" V 3746 2820 50  0000 R CNN
+F 1 "CD4148W" V 3655 2820 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3700 2700 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 3700 2900 50  0001 C CNN
+	1    3700 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 2750 3700 2750
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX6
+U 1 1 64538772
+P 4550 2600
+F 0 "MX6" H 4583 2823 60  0000 C CNN
+F 1 "MX-NoLED" H 4583 2749 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 3925 2575 60  0001 C CNN
+F 3 "" H 3925 2575 60  0001 C CNN
+	1    4550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D6
+U 1 1 64538778
+P 4300 2900
+F 0 "D6" V 4346 2820 50  0000 R CNN
+F 1 "CD4148W" V 4255 2820 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4300 2700 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 4300 2900 50  0001 C CNN
+	1    4300 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 2750 4300 2750
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX7
+U 1 1 6453934E
+P 1550 3350
+F 0 "MX7" H 1583 3573 60  0000 C CNN
+F 1 "MX-NoLED" H 1583 3499 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 925 3325 60  0001 C CNN
+F 3 "" H 925 3325 60  0001 C CNN
+	1    1550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D7
+U 1 1 64539354
+P 1300 3650
+F 0 "D7" V 1346 3570 50  0000 R CNN
+F 1 "CD4148W" V 1255 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 1300 3450 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 1300 3650 50  0001 C CNN
+	1    1300 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1500 3500 1300 3500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX8
+U 1 1 64539931
+P 2150 3350
+F 0 "MX8" H 2183 3573 60  0000 C CNN
+F 1 "MX-NoLED" H 2183 3499 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 1525 3325 60  0001 C CNN
+F 3 "" H 1525 3325 60  0001 C CNN
+	1    2150 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D8
+U 1 1 64539937
+P 1900 3650
+F 0 "D8" V 1946 3570 50  0000 R CNN
+F 1 "CD4148W" V 1855 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 1900 3450 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 1900 3650 50  0001 C CNN
+	1    1900 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 3500 1900 3500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX9
+U 1 1 64539F14
+P 2750 3350
+F 0 "MX9" H 2783 3573 60  0000 C CNN
+F 1 "MX-NoLED" H 2783 3499 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 2125 3325 60  0001 C CNN
+F 3 "" H 2125 3325 60  0001 C CNN
+	1    2750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D9
+U 1 1 64539F1A
+P 2500 3650
+F 0 "D9" V 2546 3570 50  0000 R CNN
+F 1 "CD4148W" V 2455 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2500 3450 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 2500 3650 50  0001 C CNN
+	1    2500 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 3500 2500 3500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX10
+U 1 1 6453A4FE
+P 3350 3350
+F 0 "MX10" H 3383 3573 60  0000 C CNN
+F 1 "MX-NoLED" H 3383 3499 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 2725 3325 60  0001 C CNN
+F 3 "" H 2725 3325 60  0001 C CNN
+	1    3350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D10
+U 1 1 6453A504
+P 3100 3650
+F 0 "D10" V 3146 3570 50  0000 R CNN
+F 1 "CD4148W" V 3055 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3100 3450 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 3100 3650 50  0001 C CNN
+	1    3100 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 3500 3100 3500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX11
+U 1 1 6453A9D2
+P 3950 3350
+F 0 "MX11" H 3983 3573 60  0000 C CNN
+F 1 "MX-NoLED" H 3983 3499 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 3325 3325 60  0001 C CNN
+F 3 "" H 3325 3325 60  0001 C CNN
+	1    3950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D11
+U 1 1 6453A9D8
+P 3700 3650
+F 0 "D11" V 3746 3570 50  0000 R CNN
+F 1 "CD4148W" V 3655 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3700 3450 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 3700 3650 50  0001 C CNN
+	1    3700 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 3500 3700 3500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX12
+U 1 1 6453B0E3
+P 4550 3350
+F 0 "MX12" H 4583 3573 60  0000 C CNN
+F 1 "MX-NoLED" H 4583 3499 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 3925 3325 60  0001 C CNN
+F 3 "" H 3925 3325 60  0001 C CNN
+	1    4550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D12
+U 1 1 6453B0E9
+P 4300 3650
+F 0 "D12" V 4346 3570 50  0000 R CNN
+F 1 "CD4148W" V 4255 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4300 3450 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 4300 3650 50  0001 C CNN
+	1    4300 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 3500 4300 3500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX13
+U 1 1 6453BC89
+P 1550 4100
+F 0 "MX13" H 1583 4323 60  0000 C CNN
+F 1 "MX-NoLED" H 1583 4249 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 925 4075 60  0001 C CNN
+F 3 "" H 925 4075 60  0001 C CNN
+	1    1550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D13
+U 1 1 6453BC8F
+P 1300 4400
+F 0 "D13" V 1346 4320 50  0000 R CNN
+F 1 "CD4148W" V 1255 4320 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 1300 4200 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 1300 4400 50  0001 C CNN
+	1    1300 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1500 4250 1300 4250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX14
+U 1 1 6453C518
+P 2150 4100
+F 0 "MX14" H 2183 4323 60  0000 C CNN
+F 1 "MX-NoLED" H 2183 4249 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 1525 4075 60  0001 C CNN
+F 3 "" H 1525 4075 60  0001 C CNN
+	1    2150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D14
+U 1 1 6453C51E
+P 1900 4400
+F 0 "D14" V 1946 4320 50  0000 R CNN
+F 1 "CD4148W" V 1855 4320 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 1900 4200 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 1900 4400 50  0001 C CNN
+	1    1900 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 4250 1900 4250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX15
+U 1 1 6453CDE1
+P 2750 4100
+F 0 "MX15" H 2783 4323 60  0000 C CNN
+F 1 "MX-NoLED" H 2783 4249 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 2125 4075 60  0001 C CNN
+F 3 "" H 2125 4075 60  0001 C CNN
+	1    2750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D15
+U 1 1 6453CDE7
+P 2500 4400
+F 0 "D15" V 2546 4320 50  0000 R CNN
+F 1 "CD4148W" V 2455 4320 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2500 4200 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 2500 4400 50  0001 C CNN
+	1    2500 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 4250 2500 4250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX16
+U 1 1 6453D622
+P 3350 4100
+F 0 "MX16" H 3383 4323 60  0000 C CNN
+F 1 "MX-NoLED" H 3383 4249 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 2725 4075 60  0001 C CNN
+F 3 "" H 2725 4075 60  0001 C CNN
+	1    3350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D16
+U 1 1 6453D628
+P 3100 4400
+F 0 "D16" V 3146 4320 50  0000 R CNN
+F 1 "CD4148W" V 3055 4320 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3100 4200 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 3100 4400 50  0001 C CNN
+	1    3100 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 4250 3100 4250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX17
+U 1 1 6453DECD
+P 3950 4100
+F 0 "MX17" H 3983 4323 60  0000 C CNN
+F 1 "MX-NoLED" H 3983 4249 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 3325 4075 60  0001 C CNN
+F 3 "" H 3325 4075 60  0001 C CNN
+	1    3950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D17
+U 1 1 6453DED3
+P 3700 4400
+F 0 "D17" V 3746 4320 50  0000 R CNN
+F 1 "CD4148W" V 3655 4320 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3700 4200 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 3700 4400 50  0001 C CNN
+	1    3700 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 4250 3700 4250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX18
+U 1 1 6453E25F
+P 4550 4100
+F 0 "MX18" H 4583 4323 60  0000 C CNN
+F 1 "MX-NoLED" H 4583 4249 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 3925 4075 60  0001 C CNN
+F 3 "" H 3925 4075 60  0001 C CNN
+	1    4550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D18
+U 1 1 6453E265
+P 4300 4400
+F 0 "D18" V 4346 4320 50  0000 R CNN
+F 1 "CD4148W" V 4255 4320 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4300 4200 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 4300 4400 50  0001 C CNN
+	1    4300 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 4250 4300 4250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX19
+U 1 1 6453F314
+P 3350 4850
+F 0 "MX19" H 3383 5073 60  0000 C CNN
+F 1 "MX-NoLED" H 3383 4999 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 2725 4825 60  0001 C CNN
+F 3 "" H 2725 4825 60  0001 C CNN
+	1    3350 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D19
+U 1 1 6453F31A
+P 3100 5150
+F 0 "D19" V 3146 5070 50  0000 R CNN
+F 1 "CD4148W" V 3055 5070 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3100 4950 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 3100 5150 50  0001 C CNN
+	1    3100 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 5000 3100 5000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX20
+U 1 1 6453FC94
+P 3950 4850
+F 0 "MX20" H 3983 5073 60  0000 C CNN
+F 1 "MX-NoLED" H 3983 4999 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 3325 4825 60  0001 C CNN
+F 3 "" H 3325 4825 60  0001 C CNN
+	1    3950 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D20
+U 1 1 6453FC9A
+P 3700 5150
+F 0 "D20" V 3746 5070 50  0000 R CNN
+F 1 "CD4148W" V 3655 5070 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3700 4950 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 3700 5150 50  0001 C CNN
+	1    3700 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 5000 3700 5000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX21
+U 1 1 64540382
+P 4550 4850
+F 0 "MX21" H 4583 5073 60  0000 C CNN
+F 1 "MX-NoLED" H 4583 4999 20  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1.5u" H 3925 4825 60  0001 C CNN
+F 3 "" H 3925 4825 60  0001 C CNN
+	1    4550 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:CD4148W D21
+U 1 1 64540388
+P 4300 5150
+F 0 "D21" V 4346 5070 50  0000 R CNN
+F 1 "CD4148W" V 4255 5070 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4300 4950 50  0001 C CNN
+F 3 "https://www.dccomponents.com/upload/product/original/806236332588.pdf" H 4300 5150 50  0001 C CNN
+	1    4300 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 5000 4300 5000
+Wire Wire Line
+	4300 3050 3700 3050
+Connection ~ 1300 3050
+Wire Wire Line
+	1300 3050 1000 3050
+Connection ~ 1900 3050
+Wire Wire Line
+	1900 3050 1300 3050
+Connection ~ 2500 3050
+Wire Wire Line
+	2500 3050 1900 3050
+Connection ~ 3100 3050
+Wire Wire Line
+	3100 3050 2500 3050
+Connection ~ 3700 3050
+Wire Wire Line
+	3700 3050 3100 3050
+Wire Wire Line
+	4300 3800 3700 3800
+Connection ~ 1300 3800
+Wire Wire Line
+	1300 3800 1000 3800
+Connection ~ 1900 3800
+Wire Wire Line
+	1900 3800 1300 3800
+Connection ~ 2500 3800
+Wire Wire Line
+	2500 3800 1900 3800
+Connection ~ 3100 3800
+Wire Wire Line
+	3100 3800 2500 3800
+Connection ~ 3700 3800
+Wire Wire Line
+	3700 3800 3100 3800
+Wire Wire Line
+	4300 4550 3700 4550
+Connection ~ 1300 4550
+Wire Wire Line
+	1300 4550 1000 4550
+Connection ~ 1900 4550
+Wire Wire Line
+	1900 4550 1300 4550
+Connection ~ 2500 4550
+Wire Wire Line
+	2500 4550 1900 4550
+Connection ~ 3100 4550
+Wire Wire Line
+	3100 4550 2500 4550
+Connection ~ 3700 4550
+Wire Wire Line
+	3700 4550 3100 4550
+Wire Wire Line
+	4300 5300 3700 5300
+Connection ~ 3100 5300
+Wire Wire Line
+	3100 5300 2800 5300
+Connection ~ 3700 5300
+Wire Wire Line
+	3700 5300 3100 5300
+Wire Wire Line
+	1700 4050 1700 3300
+Connection ~ 1700 2550
+Wire Wire Line
+	1700 2550 1700 2000
+Connection ~ 1700 3300
+Wire Wire Line
+	1700 3300 1700 2550
+Wire Wire Line
+	2300 4050 2300 3300
+Connection ~ 2300 2550
+Wire Wire Line
+	2300 2550 2300 2000
+Connection ~ 2300 3300
+Wire Wire Line
+	2300 3300 2300 2550
+Wire Wire Line
+	2900 4050 2900 3300
+Connection ~ 2900 2550
+Wire Wire Line
+	2900 2550 2900 2000
+Connection ~ 2900 3300
+Wire Wire Line
+	2900 3300 2900 2550
+Wire Wire Line
+	3500 4800 3500 4050
+Connection ~ 3500 2550
+Wire Wire Line
+	3500 2550 3500 2000
+Connection ~ 3500 3300
+Wire Wire Line
+	3500 3300 3500 2550
+Connection ~ 3500 4050
+Wire Wire Line
+	3500 4050 3500 3300
+Wire Wire Line
+	4100 4800 4100 4050
+Connection ~ 4100 2550
+Wire Wire Line
+	4100 2550 4100 2000
+Connection ~ 4100 3300
+Wire Wire Line
+	4100 3300 4100 2550
+Connection ~ 4100 4050
+Wire Wire Line
+	4100 4050 4100 3300
+Wire Wire Line
+	4700 4800 4700 4050
+Connection ~ 4700 2550
+Wire Wire Line
+	4700 2550 4700 2000
+Connection ~ 4700 3300
+Wire Wire Line
+	4700 3300 4700 2550
+Connection ~ 4700 4050
+Wire Wire Line
+	4700 4050 4700 3300
+Text GLabel 1700 2000 1    50   Input ~ 0
+COL0
+Text GLabel 2300 2000 1    50   Input ~ 0
+COL1
+Text GLabel 2900 2000 1    50   Input ~ 0
+COL2
+Text GLabel 3500 2000 1    50   Input ~ 0
+COL3
+Text GLabel 4100 2000 1    50   Input ~ 0
+COL4
+Text GLabel 4700 2000 1    50   Input ~ 0
+COL5
+Text GLabel 1000 3050 0    50   Input ~ 0
+ROW0
+Text GLabel 1000 3800 0    50   Input ~ 0
+ROW1
+Text GLabel 1000 4550 0    50   Input ~ 0
+ROW2
+Text GLabel 2800 5300 0    50   Input ~ 0
+ROW3
 $EndSCHEMATC
