@@ -19,3 +19,6 @@
 [submodule "Choc corne/ProMicroKiCad"]
 	path = Choc corne/ProMicroKiCad
 	url = https://github.com/Biacco42/ProMicroKiCad
+[submodule "Choc corne/kbd"]
+	path = Choc corne/kbd
+	url = https://github.com/foostan/kbd
