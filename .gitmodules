@@ -16,3 +16,6 @@
 [submodule "Choc corne/Keebio-Parts.Pretty"]
 	path = Choc corne/Keebio-Parts.Pretty
 	url = https://github.com/keebio/Keebio-Parts.Pretty
+[submodule "Choc corne/ProMicroKiCad"]
+	path = Choc corne/ProMicroKiCad
+	url = https://github.com/Biacco42/ProMicroKiCad
