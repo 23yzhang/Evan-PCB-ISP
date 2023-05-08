@@ -22,3 +22,9 @@
 [submodule "Choc corne/kbd"]
 	path = Choc corne/kbd
 	url = https://github.com/foostan/kbd
+[submodule "Corne Integrated Microchip/kbd"]
+	path = Corne Integrated Microchip/kbd
+	url = https://github.com/foostan/kbd
+[submodule "Corne Integrated Microchip/random-keyboard-parts.pretty"]
+	path = Corne Integrated Microchip/random-keyboard-parts.pretty
+	url = https://github.com/ai03-2725/random-keyboard-parts.pretty
