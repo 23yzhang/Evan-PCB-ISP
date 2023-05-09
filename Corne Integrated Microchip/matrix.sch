@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Corne Integrated Microchip-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -26,9 +27,9 @@ COL1
 Text GLabel 2300 2550 1    50   Input ~ 0
 COL0
 Text GLabel 3100 5250 0    50   Input ~ 0
-ROW4
-Text GLabel 1600 4600 0    50   Input ~ 0
 ROW3
+Text GLabel 1600 4600 0    50   Input ~ 0
+ROW2
 Text GLabel 1600 3950 0    50   Input ~ 0
 ROW1
 Text GLabel 1600 3300 0    50   Input ~ 0
