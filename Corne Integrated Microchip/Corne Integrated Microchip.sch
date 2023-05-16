@@ -840,9 +840,9 @@ F 3 "~" H 7250 5650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 7750 5650 2    50   Input ~ 0
-D+_R
+rD+
 Text GLabel 7750 5550 2    50   Input ~ 0
-D-_R
+rD-
 Wire Wire Line
 	7350 5550 7750 5550
 Wire Wire Line
@@ -1254,9 +1254,9 @@ F 3 "" H 6250 6200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 8000 2700 0    50   Input ~ 0
-D+_R
+rD+
 Text GLabel 8000 2800 0    50   Input ~ 0
-D-_R
+rD-
 $Comp
 L power:+5VA #PWR0103
 U 1 1 649E58E8
@@ -1430,4 +1430,12 @@ Text GLabel 9200 4300 2    50   Input ~ 0
 ROW6
 Text GLabel 9200 4400 2    50   Input ~ 0
 ROW7
+Text GLabel 2750 6350 1    50   Input ~ 0
+DN
+Text GLabel 2750 6450 3    50   Input ~ 0
+DP
+Text GLabel 6300 5550 1    50   Input ~ 0
+rDN
+Text GLabel 6300 5650 3    50   Input ~ 0
+rDP
 $EndSCHEMATC
