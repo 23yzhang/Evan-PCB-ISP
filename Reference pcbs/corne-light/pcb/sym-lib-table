@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name kbd)(type Legacy)(uri ${KIPRJMOD}/kbd/kicad-symbols/kbd.lib)(options "")(descr ""))
+  (lib (name corne-light-rescue)(type Legacy)(uri ${KIPRJMOD}/corne-light-rescue.lib)(options "")(descr ""))
+)
