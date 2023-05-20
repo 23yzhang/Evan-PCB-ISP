@@ -3,4 +3,5 @@
   (lib (name random-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
   (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/Type-C.pretty/Type-C.lib)(options "")(descr ""))
   (lib (name MX_Alps_Hybrid)(type Legacy)(uri "C:/Users/Evan/Documents/GitHub/Evan-PCB-ISP/Choc corne/MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name Corne-Integrated-Microchip-rescue)(type Legacy)(uri "${KIPRJMOD}/Corne Integrated Microchip-rescue.lib")(options "")(descr ""))
 )
